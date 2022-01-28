@@ -22,31 +22,28 @@ body{
     position: absolute;
 
 }
-.search input[type=text]{
-    width: 600px;
-    height: 40px;
-    border-radius: 25px;
-    border: none;
-    display: inline-block;
-    padding-left: 8px;
-
-   
-}
-.search{
-    float: right;
-    margin: 7px;
-}
-.search button{
-    color: #000;
-    float:initial;
-    padding: 10px 15px;
-    margin-right: 16px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-
-}
-
+.searchbox {  
+float: left;  
+}  
+input[type=text] {  
+padding: 6px;  
+margin-top: 8px;  
+font-size: 17px;  
+border: none;  
+}  
+.searchbox button {  
+  
+padding: 8px;  
+margin-top: 10px;  
+margin-left: 10px;  
+background: orange;  
+font-size: 20px;  
+border: none;  
+cursor: pointer;  
+}  
+.searchbox button:hover {  
+background: blue;  
+}  
  .banner-text{
      width: 100%;
      position: absolute;
